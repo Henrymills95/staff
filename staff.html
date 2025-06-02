@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Staff</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="staff.css">
+
+
+</head>
+
+<body>
+    <!-- Secondary Header (Announcements & Quick Links) -->
+    <div class="secondary-header" id="secondaryHeader">
+        <div class="quick-links">
+            <a href="mailto:henrymillsdel@gmail.com"><i class="fas fa-envelope"></i> motherprovidenciasch@gmail.com</a>
+            <a href="tel:+233555116438"><i class="fas fa-phone"></i> 0207563043 / 0551111186</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Adenta, New Legon(Rosa - Rosa)</a>
+            <a href="#"><i class="fas fa-clock"></i> 8:00am - 4:00pm (Mon-Fri)</a>
+        </div>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search..." />
+            <a href="#" id="searchLink"><i class="fas fa-search"></i></a>
+        </div>
+
+
+    </div>
+
+    <!-- Main Header (Primary Navigation) -->
+    <header class="main-header" id="mainHeader">
+        <div class="logo">
+            <img src="img/mlogo.png" alt="School Logo" />
+            <h2>Mother Providencia International School</h2>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="../home.html/index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-info-circle"></i> About Us +</a>
+                    <ul class="submenu">
+                        <li><a href="../head/head.html">Headmistress Message</a></li>
+                        <li><a href="../about us/about.html">Our History</a></li>
+                        <li><a href="../Academics/bpard/board.html">School Management</a></li>
+                        <li><a href="../student/std.html">Student Leadership</a></li>
+                        <li><a href="../School anthem/anthem.html">School Anthem/Hymn</a></li>
+                        <li><a href="../Hall-of-fame/hall-of-fame.html">Alumni/Hall Of Fame</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-book"></i> Academics +</a>
+                    <ul class="submenu">
+                        <li><a href="../Academics/curriculum.html">Curriculum</a></li>
+                        <li><a href="../staff/staff.html">Staff</a></li>
+                        <li><a href="../Academics/presch/presch.html">Pre-School</a></li>
+                        <li><a href="../Academics/primary/primary.html">Primary</a></li>
+                        <li><a href="../Academics/jhs/jhs.html">JHS</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-newspaper"></i> News & Events +</a>
+                    <ul class="submenu">
+                        <li><a href="#">News and Updates</a></li>
+                        <li><a href="#">Archived News</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-user"></i> Admissions +</a>
+                    <ul class="submenu">
+                        <li><a href="../admission/admission.html">Admission Procedure</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="../pta/facility.html"><i class="fas fa-school"></i> Facilities </a>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-heart"></i> Activities +</a>
+                    <ul class="submenu">
+                        <li><a href="#">Spiritual & Social Guidance</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-image"></i> Gallery</a>
+                    <ul class="submenu">
+                        <li><a href="../gallery/gallery.html">Photo Gallery</a></li>
+                        <li><a href="../gallery/gallery.html">Video Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="../contact/contact.html"><i class="fas fa-phone"></i> Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    </header>
+
+    <!-- Banner Section -->
+    <section id="hero">
+        <div class="hero-slider">
+            <div class="arrow prev">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="arrow next">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+            <!-- Slider-wraper-start -->
+            <div class="slider-container">
+                <div class="slider">
+
+                    <div class="slide">
+                        <img src="img/slide-1.jpg" alt="Slide Image" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide-3.jpg" alt="Slide Image" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="img/slide-4.jpg" alt="Slide Image" class="slide-img">
+                    </div>
+
+                </div>
+            </div>
+            <!-- Slider-wraper-end -->
+            <!-- Slider-controler-start -->
+            <div class="slider-controler">
+            </div>
+            <!-- Slider-controler-end -->
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+
+    <!-- ANIMATED TEXT -->
+    <section class="animated-text-section">
+        <h2 class="animated-text" data-text="STAFF...">STAFF...</h2>
+    </section>
+
+
+    <div style="background-color: #3610a0; padding: 10px;">
+        <marquee scrollamount="5" width="100%" style="color: white;">
+            “Education is the most powerful weapon which you can use to change the world.” – Nelson Mandela
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            📅 2025 Admissions Now Open! Enroll Today and Join the Journey of Excellence.
+        </marquee>
+    </div>
+
+    <button class="theme-toggle-btn" onclick="toggleTheme()">🌓 Toggle Theme</button>
+
+    <section class="gallery-section">
+        <div class="container">
+            <!-- Filter Section -->
+            <div class="department-filter">
+                <button class="filter-btn" onclick="filterDepartment('reschool')">Pre-school</button>
+                <button class="filter-btn" onclick="filterDepartment('lower-primary')">Lower Primary</button>
+                <button class="filter-btn" onclick="filterDepartment('upper-primary')">Upper Primary</button>
+            </div>
+
+            <!-- Re-school Department Section -->
+            <div id="reschool" class="department-gallery">
+                <div class="hod-card highlighted">
+                    <img src="img/team-member-03.jpg" alt="HOD Image">
+                    <div class="hod-info">
+                        <h4>John Doe</h4>
+                        <p>Head of Pre-school</p>
+                        <p class="hod-message">"Welcome to the Re-school department. We strive to provide a strong
+                            foundation."</p>
+                    </div>
+                </div>
+                <div class="staff-gallery">
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-03.jpg" alt="Staff 1">
+                        <h5>Jane Smith</h5>
+                        <p>Teacher</p>
+                    </div>
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-04.jpg" alt="Staff 2">
+                        <h5>David Lee</h5>
+                        <p>Assistant Teacher</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lower Primary Department Section -->
+            <div id="lower-primary" class="department-gallery">
+                <div class="hod-card highlighted">
+                    <img src="img/team-member-thumb-04.jpg" alt="HOD Image">
+                    <div class="hod-info">
+                        <h4>Mary Johnson</h4>
+                        <p>Head of Lower Primary</p>
+                        <p class="hod-message">"Our goal is to create a nurturing environment for our young learners."
+                        </p>
+                    </div>
+                </div>
+                <div class="staff-gallery">
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-thumb-05.jpg" alt="Staff 1">
+                        <h5>Anna Williams</h5>
+                        <p>Teacher</p>
+                    </div>
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-thumb-05.jpg" alt="Staff 2">
+                        <h5>Mark Thompson</h5>
+                        <p>Teaching Assistant</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Upper Primary Department Section -->
+            <div id="upper-primary" class="department-gallery">
+                <div class="hod-card highlighted">
+                    <img src="img/team-member-03.jpg" alt="HOD Image">
+                    <div class="hod-info">
+                        <h4>Linda Martinez</h4>
+                        <p>Head of Upper Primary</p>
+                        <p class="hod-message">"We aim to prepare students for a successful transition to secondary
+                            education."</p>
+                    </div>
+                </div>
+                <div class="staff-gallery">
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-02.jpg" alt="Staff 1">
+                        <h5>Peter Brown</h5>
+                        <p>Teacher</p>
+                    </div>
+                    <div class="staff-card animated-card">
+                        <img src="img/team-member-01.jpg" alt="Staff 2">
+                        <h5>Emma Clark</h5>
+                        <p>Science Teacher</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button class="theme-toggle-btn" onclick="toggleTheme()">🌓 Toggle Theme</button>
+
+
+    <!-- JavaScript for filtering departments and theme toggle -->
+    <script>
+        // Function to filter and display the selected department's gallery
+        function filterDepartment(department) {
+            // Hide all department galleries
+            const galleries = document.querySelectorAll('.department-gallery');
+            galleries.forEach(gallery => {
+                gallery.classList.remove('active');
+            });
+
+            // Show the selected department gallery
+            const selectedDepartment = document.getElementById(department);
+            selectedDepartment.classList.add('active');
+        }
+
+        // Dark/Light Theme Toggle
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark-theme');
+        }
+    </script>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
+
+
+
+
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose">
+        <div id="image-slider">
+            <img src="img/cta-left-image.png" alt="Image 1">
+            <img src="img/about-left-image.png" alt="Image 2">
+            <img src="img/banner-right-image.png" alt="Image 3">
+        </div>
+        <div class="text-content">
+            <h2>Why Choose Us?</h2>
+            <div class="feature"><i class="icon">✔</i> High-quality education</div>
+            <div class="feature"><i class="icon">✔</i> Experienced teachers</div>
+            <div class="feature"><i class="icon">✔</i> Modern facilities</div>
+            <div class="feature"><i class="icon">✔</i> Strong moral values</div>
+            <div class="feature"><i class="icon">✔</i> Supportive environment</div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- FOOTER  -->
+    <footer class="footer-area">
+        <div class="footer-wave-box">
+            <div class="footer-wave footer-animation"></div>
+        </div>
+        <div class="main">
+            <div class="footer">
+
+                <div class="single-footer logo-footer">
+                    <img src="img/logo.jpg" alt="School Logo" class="footer-logo">
+                    <!-- replace img path and filename accordingly -->
+
+                    <div class="single-footer footer-social-container">
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="single-footer">
+                    <h4>Main Menu</h4>
+                    <ul>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="/admission/admission.html"><i class="fas fa-chevron-right"></i> Admission</a></li>
+                        <li><a href="/gallery/gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Facilities</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="single-footer">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> News & Updates</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Pre-School</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Primary</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> JHS</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Our History</a></li>
+                    </ul>
+                </div>
+
+                <div class="single-footer">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="/contact/contact.html"><i class="fas fa-map-marker-alt"></i> Adenta, New Legon
+                                (Rosa - Rosa)</a></li>
+                        <li><a href="tel:0207563043"><i class="fas fa-mobile-alt"></i> 0207563043</a></li>
+                        <li><a href="tel:0551111186"><i class="fas fa-mobile-alt"></i> 0551111186</a></li>
+                        <li><a href="mailto:motherprovidenciasch@gmail.com"><i class="far fa-envelope"></i>
+                                motherprovidenciasch@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-globe-europe"></i> www.demo.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy">
+                <p>&copy; 2020 all rights reserved</p>
+                <p class="powered-by">Powered by <a href="https://innovexlabs.com" target="_blank">InnovexLabs</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scrolling button    -->
+    <button id="scrollTopBtn">&#8679;</button>
+
+    <!-- SCRIPT FOR SEARCH ON SITE     -->
+    <script>
+        document.getElementById("searchLink").addEventListener("click", function (e) {
+            e.preventDefault(); // Stop default link behavior
+
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const allLinks = document.querySelectorAll("nav a");
+
+            for (let link of allLinks) {
+                const text = link.textContent.toLowerCase();
+                if (text.includes(input) && input !== "") {
+                    // Open the first matched link in a new page
+                    window.location.href = link.getAttribute("href");
+                    return;
+                }
+            }
+
+            // If no match found
+            alert("No matching page found.");
+        });
+    </script>
+
+    <!-- ALL MENU AND NAVS    -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menu = document.querySelector(".menu");
+            const submenuParents = document.querySelectorAll(".has-submenu > a");
+
+            // Toggle menu for mobile view
+            menuToggle.addEventListener("click", function () {
+                menu.classList.toggle("active");
+                document.body.classList.toggle("menu-open");
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener("click", function (event) {
+                if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+                    menu.classList.remove("active");
+                    document.body.classList.remove("menu-open");
+                }
+            });
+
+            // Toggle submenus on mobile
+            submenuParents.forEach(parent => {
+                parent.addEventListener("click", function (event) {
+                    if (window.innerWidth <= 768) {  // Only for mobile
+                        event.preventDefault();
+                        this.nextElementSibling.classList.toggle("submenu-active");
+                    }
+                });
+            });
+
+            // Sticky header with secondary header hide/show
+            window.addEventListener("scroll", function () {
+                const secondaryHeader = document.getElementById("secondaryHeader");
+                const mainHeader = document.getElementById("mainHeader");
+
+                if (window.scrollY > 100) {
+                    secondaryHeader.style.top = "-50px";
+                    mainHeader.classList.add("fixed");
+                } else {
+                    secondaryHeader.style.top = "0";
+                    mainHeader.classList.remove("fixed");
+                }
+            });
+        });
+    </script>
+    <script>
+        function openMenu() {
+            document.querySelector(".mobile-menu").classList.add("active");
+        }
+
+        function closeMenu() {
+            document.querySelector(".mobile-menu").classList.remove("active");
+        }
+
+        function toggleDropdown(event) {
+            event.preventDefault();
+            let submenu = event.target.nextElementSibling;
+            if (submenu.style.display === "block") {
+                submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+    <!-- Why Choose Us Section -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add("show");
+                        }, index * 300);
+                    } else {
+                        entry.target.classList.remove("show");
+                    }
+                });
+            }, { threshold: 0.3 });
+
+            const hiddenElements = document.querySelectorAll(".hidden, #why-choose");
+            hiddenElements.forEach((el) => observer.observe(el));
+        });
+    </script>
+
+    <!--IMAGE SLIDER FOR WHY CHOOSE US -->
+    <script>
+        let index = 0;
+        const images = document.querySelectorAll('#image-slider img');
+        function changeImage() {
+            images.forEach(img => img.style.opacity = '0');
+            images[index].style.opacity = '1';
+            index = (index + 1) % images.length;
+        }
+        setInterval(changeImage, 3000);
+    </script>
+
+
+    <!-- BOTTOM SCROLLING BUTTON Section -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+            // Debugging: Log if button is found
+            if (scrollTopBtn) {
+                console.log("Scroll-to-Top button found.");
+            } else {
+                console.error("Scroll-to-Top button NOT found!");
+            }
+
+            // Show button when scrolling
+            window.onscroll = function () {
+                console.log("Scrolling..."); // Debugging log
+
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    console.log("Showing button");
+                    scrollTopBtn.style.display = "block";
+                } else {
+                    console.log("Hiding button");
+                    scrollTopBtn.style.display = "none";
+                }
+            };
+
+            // Scroll to top on button click
+            scrollTopBtn.addEventListener("click", function () {
+                console.log("Button clicked - scrolling to top.");
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
+
+
+
+    <!-- COUNTER -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const counters = document.querySelectorAll(".counter span");
+            let started = false;
+
+            function animateCounters() {
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute("data-count");
+                    let count = 0;
+                    const speed = 50; // Adjust speed
+
+                    // Extract suffix (like %, +) after the number
+                    const suffix = counter.textContent.replace(/\d+/g, '').trim();
+
+                    function updateCount() {
+                        if (count < target) {
+                            count += Math.ceil(target / 100);
+                            counter.textContent = (count > target ? target : count) + suffix;
+                            setTimeout(updateCount, 10);
+                        } else {
+                            counter.textContent = target + suffix;
+                        }
+                    }
+                    updateCount();
+                });
+            }
+
+            function checkScroll() {
+                const section = document.querySelector(".counters");
+                const sectionTop = section.getBoundingClientRect().top;
+                const screenHeight = window.innerHeight;
+
+                if (!started && sectionTop < screenHeight - 100) {
+                    animateCounters();
+                    started = true;
+                }
+            }
+
+            window.addEventListener("scroll", checkScroll);
+            checkScroll(); // Run on load in case already in view
+        });
+    </script>
+
+
+    <button id="scrollTopBtn">&#8679;</button>
+
+    <script>
+        // Get the button
+        var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        // Show button when scrolling down
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        // Scroll to top when button is clicked
+        scrollTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const accordions = document.querySelectorAll(".accordion");
+
+            accordions.forEach((accordion) => {
+                accordion.addEventListener("click", function () {
+                    this.classList.toggle("active");
+
+                    // Close other open accordions
+                    accordions.forEach((otherAccordion) => {
+                        if (otherAccordion !== this) {
+                            otherAccordion.classList.remove("active");
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+
+    <!--IMAGE SLIDER FOR WHY CHOOSE US -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let sliderIndex = 0;
+            const images = document.querySelectorAll('#image-slider img');
+
+            if (images.length === 0) return;
+
+            function changeImage() {
+                images.forEach(img => img.classList.remove('active'));
+                images[sliderIndex].classList.add('active');
+                sliderIndex = (sliderIndex + 1) % images.length;
+            }
+
+            // Show first image immediately
+            changeImage();
+            setInterval(changeImage, 3000);
+        });
+    </script>
+
+
+</body>
+
+</html>
